@@ -5,9 +5,10 @@ body{
 .book{
 	background-color:rgb(255, 255, 255);
 }
-.p{
+p{
 	display:flex;
 	align-items:flex-start;
+/* 	color:rgb(255, 255, 255) */
 }
 .book-library{
 	border:1px;
@@ -19,6 +20,7 @@ body{
 .price{
 	background-color:rgb(46, 204, 113);
 	border-radius:5px;
+	color:white;
 }
 .book-library{
 	display:flex;
