@@ -5,10 +5,9 @@ body{
 .book{
 	background-color:#ffffff;
 }
-img{
+.p{
 	display:flex;
-	justify-content:center;
-	align-item:center;
+	align-items:flex-start;
 }
 .book-library{
 	border:1px;
@@ -19,4 +18,10 @@ img{
 }
 .price{
 	background-color:#2ecc71;
+}
+.book-library{
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+	justify-content:center;
 }
