@@ -18,6 +18,7 @@ body{
 }
 .price{
 	background-color:rgb(46, 204, 113);
+	border-radius:5px;
 }
 .book-library{
 	display:flex;
